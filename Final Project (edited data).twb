@@ -1,0 +1,2264 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0112.1233                               -->
+<workbook original-version='18.1' source-build='2023.3.2 (20233.24.0112.1233)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Social Media Use &amp; Mental Health (Responses) - Form Responses 1' inline='true' name='federated.07opred0zwaukj1a05q9g0c9ttwp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Social Media Use &amp; Mental Health (Responses) - Form Responses 1' name='textscan.1geq2jt03e27rk1gvqop101tif46'>
+            <connection class='textscan' directory='/Users/kathryncornette/Downloads' filename='Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1geq2jt03e27rk1gvqop101tif46' name='Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv' table='[Social Media Use &amp; Mental Health (Responses) - Form Responses 1#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='What is your age range?' ordinal='1' />
+            <column datatype='string' name='What is your gender?' ordinal='2' />
+            <column datatype='string' name='Which social media apps do you use regularly?' ordinal='3' />
+            <column datatype='integer' name='Instagram' ordinal='4' />
+            <column datatype='integer' name='Tiktok' ordinal='5' />
+            <column datatype='integer' name='YouTube' ordinal='6' />
+            <column datatype='integer' name='Reddit' ordinal='7' />
+            <column datatype='integer' name='Twitter' ordinal='8' />
+            <column datatype='string' name='How much time per day do you spend scrolling social media?' ordinal='9' />
+            <column datatype='string' name='What time of day do you use social media the most?' ordinal='10' />
+            <column datatype='string' name='Do you feel that the time you spend on social media has an overall positive or negative effect on your mental well-being?' ordinal='11' />
+            <column datatype='string' name='Which apps do you feel impacts your mental health positively?_' ordinal='12' />
+            <column datatype='integer' name='Instagram 1' ordinal='13' />
+            <column datatype='integer' name='Tiktok 1' ordinal='14' />
+            <column datatype='integer' name='YouTube 1' ordinal='15' />
+            <column datatype='integer' name='Reddit 1' ordinal='16' />
+            <column datatype='integer' name='Twitter 1' ordinal='17' />
+            <column datatype='integer' name='None' ordinal='18' />
+            <column datatype='string' name='  Which apps do you feel impacts your mental health negatively?_' ordinal='19' />
+            <column datatype='integer' name='Instagram 2' ordinal='20' />
+            <column datatype='integer' name='TikTok' ordinal='21' />
+            <column datatype='integer' name='YouTube 2' ordinal='22' />
+            <column datatype='integer' name='Reddit 2' ordinal='23' />
+            <column datatype='integer' name='Twitter 2' ordinal='24' />
+            <column datatype='integer' name='None 1' ordinal='25' />
+            <column datatype='string' name='How do you feel about your current level of daily social media usage?' ordinal='26' />
+            <column datatype='string' name='Click the statements that you feel apply to you:' ordinal='27' />
+            <column datatype='integer' name='Unfocused?' ordinal='28' />
+            <column datatype='integer' name='Sad?' ordinal='29' />
+            <column datatype='integer' name='Anxious?' ordinal='30' />
+            <column datatype='string' name='Have you ever considered deleting social media apps, temporarily or permanently, for mental health reasons?' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1geq2jt03e27rk1gvqop101tif46' name='Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv' table='[Social Media Use &amp; Mental Health (Responses) - Form Responses 1#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='What is your age range?' ordinal='1' />
+            <column datatype='string' name='What is your gender?' ordinal='2' />
+            <column datatype='string' name='Which social media apps do you use regularly?' ordinal='3' />
+            <column datatype='integer' name='Instagram' ordinal='4' />
+            <column datatype='integer' name='Tiktok' ordinal='5' />
+            <column datatype='integer' name='YouTube' ordinal='6' />
+            <column datatype='integer' name='Reddit' ordinal='7' />
+            <column datatype='integer' name='Twitter' ordinal='8' />
+            <column datatype='string' name='How much time per day do you spend scrolling social media?' ordinal='9' />
+            <column datatype='string' name='What time of day do you use social media the most?' ordinal='10' />
+            <column datatype='string' name='Do you feel that the time you spend on social media has an overall positive or negative effect on your mental well-being?' ordinal='11' />
+            <column datatype='string' name='Which apps do you feel impacts your mental health positively?_' ordinal='12' />
+            <column datatype='integer' name='Instagram 1' ordinal='13' />
+            <column datatype='integer' name='Tiktok 1' ordinal='14' />
+            <column datatype='integer' name='YouTube 1' ordinal='15' />
+            <column datatype='integer' name='Reddit 1' ordinal='16' />
+            <column datatype='integer' name='Twitter 1' ordinal='17' />
+            <column datatype='integer' name='None' ordinal='18' />
+            <column datatype='string' name='  Which apps do you feel impacts your mental health negatively?_' ordinal='19' />
+            <column datatype='integer' name='Instagram 2' ordinal='20' />
+            <column datatype='integer' name='TikTok' ordinal='21' />
+            <column datatype='integer' name='YouTube 2' ordinal='22' />
+            <column datatype='integer' name='Reddit 2' ordinal='23' />
+            <column datatype='integer' name='Twitter 2' ordinal='24' />
+            <column datatype='integer' name='None 1' ordinal='25' />
+            <column datatype='string' name='How do you feel about your current level of daily social media usage?' ordinal='26' />
+            <column datatype='string' name='Click the statements that you feel apply to you:' ordinal='27' />
+            <column datatype='integer' name='Unfocused?' ordinal='28' />
+            <column datatype='integer' name='Sad?' ordinal='29' />
+            <column datatype='integer' name='Anxious?' ordinal='30' />
+            <column datatype='string' name='Have you ever considered deleting social media apps, temporarily or permanently, for mental health reasons?' ordinal='31' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What is your age range?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What is your age range?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>What is your age range?</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What is your gender?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What is your gender?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>What is your gender?</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Which social media apps do you use regularly?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Which social media apps do you use regularly?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Which social media apps do you use regularly?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Instagram</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Instagram]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Instagram</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tiktok</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tiktok]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Tiktok</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YouTube</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YouTube]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>YouTube</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reddit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reddit]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Reddit</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Twitter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Twitter]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Twitter</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How much time per day do you spend scrolling social media?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[How much time per day do you spend scrolling social media?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>How much time per day do you spend scrolling social media?</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What time of day do you use social media the most?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What time of day do you use social media the most?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>What time of day do you use social media the most?</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do you feel that the time you spend on social media has an overall positive or negative effect on your mental well-being?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Do you feel that the time you spend on social media has an overall positive or negative effect on your mental well-being?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Do you feel that the time you spend on social media has an overall positive or negative effect on your mental well-being?</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Which apps do you feel impacts your mental health positively?_</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Which apps do you feel impacts your mental health positively?_]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Which apps do you feel impacts your mental health positively?_</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Instagram 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Instagram 1]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Instagram 1</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tiktok 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tiktok 1]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Tiktok 1</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YouTube 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YouTube 1]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>YouTube 1</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reddit 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reddit 1]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Reddit 1</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Twitter 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Twitter 1]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Twitter 1</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>None</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[None]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>None</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>  Which apps do you feel impacts your mental health negatively?_</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[  Which apps do you feel impacts your mental health negatively?_]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>  Which apps do you feel impacts your mental health negatively?_</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Instagram 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Instagram 2]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Instagram 2</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TikTok</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TikTok]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>TikTok</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YouTube 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YouTube 2]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>YouTube 2</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reddit 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reddit 2]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Reddit 2</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Twitter 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Twitter 2]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Twitter 2</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>None 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[None 1]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>None 1</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How do you feel about your current level of daily social media usage?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[How do you feel about your current level of daily social media usage?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>How do you feel about your current level of daily social media usage?</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Click the statements that you feel apply to you:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Click the statements that you feel apply to you:]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Click the statements that you feel apply to you:</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unfocused?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unfocused?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Unfocused?</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sad?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sad?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Sad?</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Anxious?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Anxious?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Anxious?</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Have you ever considered deleting social media apps, temporarily or permanently, for mental health reasons?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Have you ever considered deleting social media apps, temporarily or permanently, for mental health reasons?]</local-name>
+            <parent-name>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv]</parent-name>
+            <remote-alias>Have you ever considered deleting social media apps, temporarily or permanently, for mental health reasons?</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Which apps do you feel impacts your mental health negatively?' datatype='string' name='[  Which apps do you feel impacts your mental health negatively?_]' role='dimension' type='nominal' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 1:qk]&quot;' value='Instagram ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 2:qk]&quot;' value='Instagram  ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:None 1:qk]&quot;' value='None  ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 1:qk]&quot;' value='Reddit ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 2:qk]&quot;' value='Reddit  ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Tiktok 1:qk]&quot;' value='Tiktok ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:TikTok:qk]&quot;' value='TikTok  ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 1:qk]&quot;' value='Twitter ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 2:qk]&quot;' value='Twitter  ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 1:qk]&quot;' value='YouTube ' />
+          <alias key='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 2:qk]&quot;' value='YouTube  ' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Instagram 1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Instagram 2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Instagram]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[None 1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[None]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Reddit 1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Reddit 2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Reddit]' role='measure' type='quantitative' />
+      <column caption='Tik Tok' datatype='integer' name='[TikTok]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tiktok 1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tiktok]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Twitter 1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Twitter 2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Twitter]' role='measure' type='quantitative' />
+      <column caption='Which apps do you feel impacts your mental health positively?' datatype='string' name='[Which apps do you feel impacts your mental health positively?_]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[YouTube 1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[YouTube 2]' role='measure' type='quantitative' />
+      <column caption='You Tube' datatype='integer' name='[YouTube]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv' datatype='table' name='[__tableau_internal_object_id__].[Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4]' role='measure' type='quantitative' />
+      <column-instance column='[Instagram 1]' derivation='Sum' name='[sum:Instagram 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Instagram 2]' derivation='Sum' name='[sum:Instagram 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Instagram]' derivation='Sum' name='[sum:Instagram:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[None 1]' derivation='Sum' name='[sum:None 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[None]' derivation='Sum' name='[sum:None:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Reddit 1]' derivation='Sum' name='[sum:Reddit 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Reddit 2]' derivation='Sum' name='[sum:Reddit 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Reddit]' derivation='Sum' name='[sum:Reddit:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TikTok]' derivation='Sum' name='[sum:TikTok:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tiktok 1]' derivation='Sum' name='[sum:Tiktok 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tiktok]' derivation='Sum' name='[sum:Tiktok:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Twitter 1]' derivation='Sum' name='[sum:Twitter 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Twitter 2]' derivation='Sum' name='[sum:Twitter 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Twitter]' derivation='Sum' name='[sum:Twitter:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[YouTube 1]' derivation='Sum' name='[sum:YouTube 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[YouTube 2]' derivation='Sum' name='[sum:YouTube 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[YouTube]' derivation='Sum' name='[sum:YouTube:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 1:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 2:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 1:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 2:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 1:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 2:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Tiktok 1:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Tiktok:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:TikTok:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 1:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 2:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:None 1:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:None:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv' id='Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv_1B2AEBB856A64F229348C90CF335FFC4'>
+            <properties context=''>
+              <relation connection='textscan.1geq2jt03e27rk1gvqop101tif46' name='Social Media Use &amp; Mental Health (Responses) - Form Responses 1.csv' table='[Social Media Use &amp; Mental Health (Responses) - Form Responses 1#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='datetime' name='Timestamp' ordinal='0' />
+                  <column datatype='string' name='What is your age range?' ordinal='1' />
+                  <column datatype='string' name='What is your gender?' ordinal='2' />
+                  <column datatype='string' name='Which social media apps do you use regularly?' ordinal='3' />
+                  <column datatype='integer' name='Instagram' ordinal='4' />
+                  <column datatype='integer' name='Tiktok' ordinal='5' />
+                  <column datatype='integer' name='YouTube' ordinal='6' />
+                  <column datatype='integer' name='Reddit' ordinal='7' />
+                  <column datatype='integer' name='Twitter' ordinal='8' />
+                  <column datatype='string' name='How much time per day do you spend scrolling social media?' ordinal='9' />
+                  <column datatype='string' name='What time of day do you use social media the most?' ordinal='10' />
+                  <column datatype='string' name='Do you feel that the time you spend on social media has an overall positive or negative effect on your mental well-being?' ordinal='11' />
+                  <column datatype='string' name='Which apps do you feel impacts your mental health positively?_' ordinal='12' />
+                  <column datatype='integer' name='Instagram 1' ordinal='13' />
+                  <column datatype='integer' name='Tiktok 1' ordinal='14' />
+                  <column datatype='integer' name='YouTube 1' ordinal='15' />
+                  <column datatype='integer' name='Reddit 1' ordinal='16' />
+                  <column datatype='integer' name='Twitter 1' ordinal='17' />
+                  <column datatype='integer' name='None' ordinal='18' />
+                  <column datatype='string' name='  Which apps do you feel impacts your mental health negatively?_' ordinal='19' />
+                  <column datatype='integer' name='Instagram 2' ordinal='20' />
+                  <column datatype='integer' name='TikTok' ordinal='21' />
+                  <column datatype='integer' name='YouTube 2' ordinal='22' />
+                  <column datatype='integer' name='Reddit 2' ordinal='23' />
+                  <column datatype='integer' name='Twitter 2' ordinal='24' />
+                  <column datatype='integer' name='None 1' ordinal='25' />
+                  <column datatype='string' name='How do you feel about your current level of daily social media usage?' ordinal='26' />
+                  <column datatype='string' name='Click the statements that you feel apply to you:' ordinal='27' />
+                  <column datatype='integer' name='Unfocused?' ordinal='28' />
+                  <column datatype='integer' name='Sad?' ordinal='29' />
+                  <column datatype='integer' name='Anxious?' ordinal='30' />
+                  <column datatype='string' name='Have you ever considered deleting social media apps, temporarily or permanently, for mental health reasons?' ordinal='31' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='SM Negative'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Æ                                     </run>
+            <run fontsize='18'>Which Apps Do You Feel </run>
+            <run>Æ&#10;</run>
+            <run fontsize='18'>              Impact Your Mental Health Negatively?</run>
+            <run>Æ           </run>
+            <run fontsize='22'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Use &amp; Mental Health (Responses) - Form Responses 1' name='federated.07opred0zwaukj1a05q9g0c9ttwp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07opred0zwaukj1a05q9g0c9ttwp'>
+            <column datatype='integer' name='[Instagram 2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[None 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Reddit 2]' role='measure' type='quantitative' />
+            <column caption='Tik Tok' datatype='integer' name='[TikTok]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Twitter 2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[YouTube 2]' role='measure' type='quantitative' />
+            <column-instance column='[Instagram 2]' derivation='Sum' name='[sum:Instagram 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[None 1]' derivation='Sum' name='[sum:None 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reddit 2]' derivation='Sum' name='[sum:Reddit 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TikTok]' derivation='Sum' name='[sum:TikTok:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Twitter 2]' derivation='Sum' name='[sum:Twitter 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YouTube 2]' derivation='Sum' name='[sum:YouTube 2:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:TikTok:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:None 1:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:TikTok:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:None 1:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]' scope='rows' value='Number of People ' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' value='81' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='rows' value='12' />
+            <format attr='font-size' scope='cols' value='12' />
+            <format attr='color' scope='cols' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#ff9da7' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]</rows>
+        <cols>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{B1365EF2-CC46-4F6C-8B7D-C0C4D9403413}' />
+    </worksheet>
+    <worksheet name='SM Positive vs Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>                  Which Apps Do You Feel Impact Your Mental Health Positively by Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Use &amp; Mental Health (Responses) - Form Responses 1' name='federated.07opred0zwaukj1a05q9g0c9ttwp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07opred0zwaukj1a05q9g0c9ttwp'>
+            <column datatype='integer' name='[Instagram 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[None]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Reddit 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tiktok 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Twitter 1]' role='measure' type='quantitative' />
+            <column datatype='string' name='[What is your gender?]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[YouTube 1]' role='measure' type='quantitative' />
+            <column-instance column='[What is your gender?]' derivation='None' name='[none:What is your gender?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Instagram 1]' derivation='Sum' name='[sum:Instagram 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[None]' derivation='Sum' name='[sum:None:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reddit 1]' derivation='Sum' name='[sum:Reddit 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tiktok 1]' derivation='Sum' name='[sum:Tiktok 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Twitter 1]' derivation='Sum' name='[sum:Twitter 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YouTube 1]' derivation='Sum' name='[sum:YouTube 1:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]'>
+            <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 1:qk]&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 1:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 1:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Tiktok 1:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 1:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 1:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:None:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:What is your gender?:nk]' />
+              <groupfilter function='member' level='[none:What is your gender?:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</column>
+            <column>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]' scope='rows' value='Number of People ' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]</rows>
+        <cols>([federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk] / [federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{9A54FC34-B2BE-4A9E-B436-ED0330258BB4}' />
+    </worksheet>
+    <worksheet name='SM Postive'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Æ                                  </run>
+            <run fontsize='18'>Which Apps Do You Feel </run>
+            <run>Æ&#10;</run>
+            <run fontsize='18'>             Impact Your Mental Health Positively?</run>
+            <run>Æ           </run>
+            <run fontsize='22'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Use &amp; Mental Health (Responses) - Form Responses 1' name='federated.07opred0zwaukj1a05q9g0c9ttwp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07opred0zwaukj1a05q9g0c9ttwp'>
+            <column datatype='integer' name='[Instagram 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[None]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Reddit 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tiktok 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tiktok]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Twitter 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[YouTube 1]' role='measure' type='quantitative' />
+            <column-instance column='[Instagram 1]' derivation='Sum' name='[sum:Instagram 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[None]' derivation='Sum' name='[sum:None:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reddit 1]' derivation='Sum' name='[sum:Reddit 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tiktok 1]' derivation='Sum' name='[sum:Tiktok 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tiktok]' derivation='Sum' name='[sum:Tiktok:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Twitter 1]' derivation='Sum' name='[sum:Twitter 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YouTube 1]' derivation='Sum' name='[sum:YouTube 1:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Tiktok 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:None:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 1:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 1:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Tiktok:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 1:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]' scope='rows' value='Number of People' />
+            <format attr='stroke-size' scope='cols' value='2' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' value='86' />
+            <format attr='width' field='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' value='79' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='rows' value='#00000000' />
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+            <format attr='wrap' data-class='subtotal' scope='rows' value='auto' />
+            <format attr='text-align' data-class='total' scope='rows' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' value='0' />
+            <format attr='font-size' scope='cols' value='12' />
+            <format attr='font-size' scope='rows' value='12' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='cols' value='#00000000' />
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='cols' value='5' />
+            <format attr='background-color' value='#00000000' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]</rows>
+        <cols>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{21D04A9E-2195-4964-A69B-80A1F7022252}' />
+    </worksheet>
+    <worksheet name='SM vs Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>                                              Most Popular Social Media Apps by Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Use &amp; Mental Health (Responses) - Form Responses 1' name='federated.07opred0zwaukj1a05q9g0c9ttwp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07opred0zwaukj1a05q9g0c9ttwp'>
+            <column datatype='integer' name='[Instagram]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Reddit]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tiktok]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Twitter]' role='measure' type='quantitative' />
+            <column datatype='string' name='[What is your gender?]' role='dimension' type='nominal' />
+            <column caption='You Tube' datatype='integer' name='[YouTube]' role='measure' type='quantitative' />
+            <column-instance column='[What is your gender?]' derivation='None' name='[none:What is your gender?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Instagram]' derivation='Sum' name='[sum:Instagram:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reddit]' derivation='Sum' name='[sum:Reddit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tiktok]' derivation='Sum' name='[sum:Tiktok:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Twitter]' derivation='Sum' name='[sum:Twitter:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YouTube]' derivation='Sum' name='[sum:YouTube:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Tiktok:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Tiktok:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:What is your gender?:nk]' />
+              <groupfilter function='member' level='[none:What is your gender?:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</column>
+            <column>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]' scope='rows' value='Number of People' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]</rows>
+        <cols>([federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk] / [federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{0A066346-4B52-4094-A923-45C7F45E3E9A}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>          Which Apps Do You Feel Impact Your Mental Health Negatively by Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Social Media Use &amp; Mental Health (Responses) - Form Responses 1' name='federated.07opred0zwaukj1a05q9g0c9ttwp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07opred0zwaukj1a05q9g0c9ttwp'>
+            <column datatype='integer' name='[Instagram 2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[None 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Reddit 2]' role='measure' type='quantitative' />
+            <column caption='Tik Tok' datatype='integer' name='[TikTok]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Twitter 2]' role='measure' type='quantitative' />
+            <column datatype='string' name='[What is your gender?]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[YouTube 2]' role='measure' type='quantitative' />
+            <column-instance column='[What is your gender?]' derivation='None' name='[none:What is your gender?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Instagram 2]' derivation='Sum' name='[sum:Instagram 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[None 1]' derivation='Sum' name='[sum:None 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reddit 2]' derivation='Sum' name='[sum:Reddit 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TikTok]' derivation='Sum' name='[sum:TikTok:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Twitter 2]' derivation='Sum' name='[sum:Twitter 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YouTube 2]' derivation='Sum' name='[sum:YouTube 2:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:None 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:TikTok:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 2:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Reddit 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:TikTok:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Twitter 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:YouTube 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:None 1:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:What is your gender?:nk]' />
+              <groupfilter function='member' level='[none:What is your gender?:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</column>
+            <column>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]' scope='rows' value='Number of People ' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]</rows>
+        <cols>([federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk] / [federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{4953908C-6C9B-42ED-B6B9-23BA0558F41C}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='SM vs Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</field>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]</field>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:Which social media apps do you use regularly?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5AD29ABE-3ACB-41F8-879B-BEDFF8C08594}' />
+    </window>
+    <window class='worksheet' name='SM Postive'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</field>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:  Which apps do you feel impacts your mental health negatively?_:nk]</field>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:Calculation_6940821095611293696:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E7122DF0-03C1-41D8-85D0-584F9801BDD7}' />
+    </window>
+    <window class='worksheet' name='SM Positive vs Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</field>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{36941FBA-10D5-4F83-B7D5-1AF243276BF3}' />
+    </window>
+    <window class='worksheet' maximized='true' name='SM Negative'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</field>
+                  <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 2:qk]&quot;</value>
+                <value>66.0</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3C9C5594-F4C7-4B89-A1F8-78C4DEE05FE9}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]</field>
+                    <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]</field>
+                  <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</field>
+                  <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Female&quot;</value>
+                <value>&quot;[federated.07opred0zwaukj1a05q9g0c9ttwp].[sum:Instagram 2:qk]&quot;</value>
+                <value>47.0</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[:Measure Names]</field>
+            <field>[federated.07opred0zwaukj1a05q9g0c9ttwp].[none:What is your gender?:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{96C977F4-0BBC-43A9-B0FF-F4F141C79D45}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='SM Negative' width='384'>
+      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
+      e+UcjjpvAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='384' name='SM Positive vs Gender' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3d61NUd4L/8c/pKzQgV2kB5S4Y76CicWKMOtHEmHFnMlWbra3aS9XWPtj9
+      F/YPmGe7z/bRbk3V1E7VbtbJmqyZOMZoEjVeUFAjgiKiIHK1aZpL38/vgb/ulYCKiKL5vl9V
+      UzXpPg2nD6fP+/T3XLRs27YFADCKZVmWY7FnAgCwOAgAABiKAACAoQgAABiKAACAoQgAABiK
+      AACAoQgAABiKAACAoQgAABiKAACAoQgAABiKALwCbt++rebm5sWeDWPF43E1Nzerp6dnsWfF
+      aJ2dnWptbV3s2TAKAQD+P26Mu/j4G7xcBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQrsWe
+      ASDlx6cAWpa1SHPy02PbtmzblmVZLFekEYCfiHg8rmg0+tjzqF0ulzwezyv94bdtW3fv3tX4
+      +LhqamqUmZm52LP0QiQSCUUiEdm2LZfLJa/X+9hpk8mkpqamJElut1tut3tef8NQKKSOjg5V
+      VVWpqKho3vO+WGzbVjQaVTwel9PpVEZGxqzTRSIRJZPJRV13EomEotGoksnktMedTqfcbrec
+      Tue0x23bViwW09TUlHw+n1wu10v7nBKAn4i+vj5duHAhvbH4sTfeeEMNDQ2vdAASiYQuX76s
+      O3fuyO/3/2QDMDQ0pPPnz2tsbEzl5eXasWPHY/8uwWBQf/zjH5VMJrVy5Uo1NjbK7XY/8+8c
+      Hh7W4cOH9atf/eq1DUBra6tu3rypgoIC7dmzZ9ZwtrS06MGDB9q/f/8izOVDo6OjOnfunB48
+      eJB+zOFwyOPxqKCgQJWVlSotLZ0WsVu3bun06dPat2+fli9f/tLmlQD8RAwPD+vcuXMqLy/X
+      kiVLZjzPFZavjtHRUTU3N2tyclI9PT1at26d8vPzZ532+vXrOnPmjFwulxKJhNavXz+vALzu
+      bNtWZ2enzpw5o8zMTJWVlWnDhg0zprt586bu3LmzqAEIhUK6dOmS3G63li1bJkmKRqMKBAJq
+      aWlRZmam3nrrLW3fvl0ej0eSNDExob6+PkWj0Zc6rwTgJ2bnzp2qqqqa8fh8hw7w4jQ1Nam5
+      uVldXV3atGnTrNNcunRJS5cunTXqJiopKVEsFtP333+v6upq5eTkLPYsPVZDQ4O2bdsmh8Oh
+      ZDKpRCKhYDCo//3f/9Xp06dVWVmpyspKSdLq1au1fPnyx+4IvCgE4CcmMzNT2dnZT5wmNeY4
+      MTGhaDQqh8OhjIwM+Xy+aeOTiURCU1NT8ng8sm1bU1NTikajsixLPp9PPp9P8XhcU1NT6THt
+      zMzMWX9OOBxOj89KD4OUnZ09Yzz0ceLxuCYnJxUOh2Xbtrxer7Kysl7qeOlCq6qq0o0bN9TR
+      0THrnv3g4KB6enrU1NQ0bTghZSGWqyTFYjGNj4+n/7Zer1c5OTlyOF69kwS9Xq/27t2rQ4cO
+      qbW1Vdu3b5/Te00kEpqYmFAkEpm2vj+67qTWd6/XO219T61vz7pMvF6vsrOzp70mLy9Pu3fv
+      1r//+78rGAxKeniyg9vtnrE+P/r5sywrPT/JZFIej0fZ2dlyuZ5vE04ADGPbtsbGxnT27Fld
+      vXpVY2NjcjqdKi4u1vbt2/XGG2+kv5YGAgEdO3ZM+fn5mpqaUmdnpwKBgGKxmNavX6/Nmzer
+      t7dX169f1/DwsCYnJ1VdXa39+/ervLxcDodD0WhUbW1tam1tVV9fn2KxmCRpyZIl2r59uzZs
+      2PDYA3qPamtr08mTJzUyMqJkMqm8vDxt2bJFTU1Nc3r9q8jpdKqhoUHXrl3TwMDAjLHfK1eu
+      yOVyae3atfr222+nPReNRnX9+nW1tLTMWK5vvvmmNm7cOKflMjY2pkuXLun8+fMaHx+XZVnK
+      z8/XO++8o7Vr1z73BuZFqKurU1VVlS5evKj6+notXbr0iTsB8XhcV65c0alTpzQ8PCyn06mq
+      qirt2rVLZWVl6Q308PCwvvjiC1VXV2tyclJtbW0aHR1VOBzWsmXL9OGHH6quru655t22bY2P
+      j8vhcEwLQ3d3t06dOqX9+/fL7/dLkkZGRvSnP/1JZWVlisViun79ugKBgEKhkEpKSvTuu+9q
+      zZo1z/U3evX+unihksmkvv76a7W0tGjDhg2qrKxUJBJRa2urPvvsM2VlZammpkaWZSkSiaRv
+      VV1ZWanVq1dryZIl6u/v18mTJ3Xjxg3l5eWpqqpKDQ0NGhwcVHNzsy5cuKCSkhJ5vV5NTEyo
+      tbVV0WhUmzdvTn9r6Ojo0KFDh2RZlpqamp44z5FIRFevXk1v3CSpvb1dR48eldfr1datW1/G
+      oltwDodDdXV1Onv2rPr6+lRWVpbekIXDYXV0dKi0tFTFxcUzXjs5OanLly8rEolo06ZNysrK
+      Ujwe140bN9LL9WnLJRKJ6MyZM/rmm2/U1NSk8vJyxeNxtba26tNPP1VmZqbq6+tfyHt/Hj6f
+      T9u2bdOhQ4fU1tamt95664kbwWvXrunQoUMqKSnRnj17FIlE9P3332t0dFQfffSRysrKJD1c
+      5m1tbbp+/br8fr9WrlypvLw8jY+P69SpUzpy5Ihqa2vn/c0oFoupq6tL3333nWpra1VSUpJ+
+      bmxsTJ2dnQqHw+nHwuGwurq6dPXqVRUWFqqmpkYNDQ0Kh8M6c+aMTp48qdLSUi1dunRe8yMR
+      AOMMDQ3p3Llzampq0nvvvafMzEzZtq2SkhJ98sknOn/+vMrLy9PfAiRp8+bNevfdd5WXlyeX
+      y6VwOKyLFy+qqKhIH330kYqLi+V2uxUKhRQMBnX//n3F4/H0V+D33ntPGRkZys3NlWVZsm1b
+      a9eu1W9+8xtdvXpVjY2NT/wA9/T0qLCwUFu2bFFBQYEkqb6+XqFQSCdPnpzzt4hXUWFhofx+
+      v27fvq21a9fK5/NJku7du6eBgQG9//77s+7dZmVlad++ffJ4PMrLy0sv13Xr1uk3v/mNrly5
+      ok2bNj1xud67d08XLlzQ5s2bp60LtbW1+td//VedPn1aVVVV09aFV4FlWaqtrVVNTY2+++47
+      NTQ0KDc3d9ZpQ6GQTpw4oby8PP35n/+5ioqKlEwmtXz5cv32t7/VpUuX0uuv9PB06U2bNmn7
+      9u0qLi6Wy+VSPB7X2NiYLl++rImJiTkfd2hvb5823Nrf36/BwUH5/X6999576XX5adatW6fd
+      u3ersLBQHo8nPdx3+vRpBQIBAoD/89lnn81YQd1ut7Zs2aI1a9bo2rVr6b3m1MbGsiyVl5er
+      rq5OLS0tisfj0z70paWl004dzMjIUF5ennJzc6fttfp8Pi1ZskTBYDB91lHqTIhkMpkev7Rt
+      Wz6fT7W1tQqFQpqcnHzsQU7bttXX1yefz6eCgoL078rJyVFTU5MOHTqke/fuqaamZuEW4ku0
+      ZMkS1dfX69y5cxobG0uf+trZ2alkMqk1a9bMOJ9cerhc/X5/ernatp0+/33lypUaHx+f03KN
+      RqPasmVLOqCWZamgoEBbtmzRhQsXNDw8rNLS0he3AOYpOztbW7ZsUVdXV3roZLZQ3r17V/39
+      /emNv2VZcjqdqqmp0fr169Xd3a3R0dH0RtTlcqmqqkolJSXpn+dyuVRSUqIrV64oFoulN+qJ
+      RCL9eyzLksfjmfbtoL29Xd3d3bJtW4lEQrFYTH6/Xw0NDdPW5aeprq6e9jdwOBwqLy/Xt99+
+      O20e5oMA/MREo1FNTk5Oe8zr9Soej0uSBgYGJD08FXF8fHzGa0OhUHraJ0mtvD9eiX/837Zt
+      KxAIqLOzUx0dHRofH0+PVw8MDKT3yB4nFospEAgoGo3qxo0b054Lh8NKJBJ68ODBaxsAl8ul
+      iooKnT59Wj09PfL7/QoGg+ru7taqVauUkZEx4+8p/d9yvXXrltrb22cs14KCgjktV7fbrf7+
+      /hnXjySTSUUiEY2Njb2SAbAsS6tWrdLq1at16tQpbd68OT12/qiRkRFFo1FVV1dPWzdTy727
+      u3va8n3ceu1wOKYdnP3yyy91+/bt9PN5eXk6ePCg8vLy0o+9//772rZtW/qAciAQ0PXr1/XF
+      F1/o2rVrOnjw4Jy+Bcw25LRQJz4QgJ+YX//616qtrX3s8+FwWIFAQEeOHJnxXCKRUH5+/pwC
+      MFcjIyM6cuSIbty4obq6Oi1fvlxer1eWZc3p9ySTScViMV2+fHnaB056uBEsLCx8Jc9WeRYl
+      JSUqKSlRS0uLNm3apMHBQQ0MDOjAgQOPHcJ58OCBjhw5oo6OjvRyTe2BJhKJJ278JaW/OQwP
+      D+vYsWMzzkBKJpPpPeZXlcvl0o4dO9TW1qZvvvlGv/zlL2dMk9pj//EwVmqPPR6Pz2svOj8/
+      f9p4/ZIlS2b8rR49Cyg3N1fLli1TXV2dSktLdfjwYd24cUNNTU2Luv4SAMPk5uYqLy9PBw4c
+      eOyVtgt1brVt27p586Y6Ojr0wQcfqKGhIT3sJD088HX37t0n/gyXy6WsrCw1NjaqoaFhxvMO
+      h+Olnzu90LKzs1VVVaUTJ05obGxMvb29ysjIUElJyawbh9RFUe3t7Xr//ffV2NiorKys9PPj
+      4+Pq6up64u9MLdf8/PzHjke7XK45j1MvlrKyMjU2NqqlpUUbN26c8XzqlNhgMDhtfU8mk+kh
+      tyfdimM2TqdTP/vZz6ZdXDnXeyw5nU6Vl5crJydHg4ODM4ZbXzYCYJhly5apublZyWRSlZWV
+      01ba1DjyQu2RxONxDQ8PKyMjQ3V1demNf+rGZE/bS5UefmByc3OVkZGRPrU0Nc+P3uDsdWZZ
+      lurr6/Xtt9+qublZnZ2dqqqqemzYEolEernW19c/13KdnJxUZmbmrOvC67BsLcvS22+/rYsX
+      L6q5uXnGUFZRUZEyMjJ06dKlaQfUU2eW5efnT4vnXH/nfJdLajgoFAot+L25Un+zH8/jk24E
+      SAAM09jYqK+++kpffvmlnE6nli1bJqfTqUgkop6eHp09e1Z/8zd/M21Pfb5cLpeys7M1PDys
+      27dvp1f48fFxtbS06PTp06qoqHjiz0id8XH06FFdvHhRtbW1crlc6THs77//Xo2NjVqzZs1z
+      z+9iKi8v14oVK3TixAm53e4nXt/gdDqVlZWl4eFhdXV1pYfUUsv11KlTT72fjGVZqqmpUXl5
+      uQ4dOqSPP/5YS5cuTV+7cf/+fV29elXbt29PX636qsrLy9OePXt07NgxJRKJaRdCVlVVac2a
+      Nfrmm2+0bNky1dTUKJFI6NSpU+rv79evf/3raeP2CykUCmlwcFAOhyN9IHhwcFB//OMf5XK5
+      VF1dvaC39QgEArpw4YJs29bu3bvT3yxu376t1tZWVVZWqrGxcdprCMBPxOMOXv2Y1+vVL37x
+      Cx09elS///3v5ff7lZGRoeHhYYXDYa1YsWLGlZWP+5mzPf7oY5Zlqbq6WlVVVTp06JCqq6vl
+      cDg0ODiozMzMWc9vn20vZenSpcrPz9ehQ4dUVlYmn8+nUCikkZERlZWVvbAP8Iv242W1adMm
+      tbS0qK6uTitWrJj23GzLtbq6Wn/4wx9UU1Mzp+X66Lcn6eFy3blzp7766iv927/9m8rLy+V2
+      uxUMBjU6OqrVq1c/9aryl222dc7pdGrNmjVqaWlRR0fHtHl2OBzas2ePRkZG9Mknn6iyslLh
+      cFh9fX3asWOHVq9ePaffMZfnfjzdqVOn1NraKsuylEwm03fsLS4u1q5du6aF9Vm/VaSmf/Q1
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='384' name='SM Postive' width='384'>
+      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
+      XIoAAACX+j/yUbcGTj9RFAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='384' name='SM vs Gender' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAebklEQVR4nO3dW2xc5d3v8d+aM56x4/jsxI4DcROSuE5LQiCFCpAoBcKpW60qtnrRCsQu
+      rShSQT28qFui1ZYqtbu9aKW2N1VFK7XihTQHDCGQECJCESXkVJSDEydx7NiJz44957XWvjAZ
+      ElK6M8zMcsbP93PD2Hie+WeNZ74zazyzLNd1XQEAjGJZluWb7SEAALODAACAoQgAABjqqg1A
+      Op1WOp2e7TFQBK7ranp6erbHQJHE43E5jjPbY6AIrtoAxONxJRKJ2R4DReA4jsbGxmZ7DBTJ
+      2NgYAZgjrtoAAABKiwBcpVzXlW3bsz0GPiXbtnmUjKseASiBHTt2qKurS11dXZ96N1YqldLu
+      3buLPBkK9frrr+vQoUOSZnZtvfjiizpz5sxlP/evf/1L586d83o8SHrhhRc0PDwsSdqzZ4+y
+      2ewVn/fo0aPauHGjtmzZovfff1+u6+qdd97RXH27VGC2B5iLpqende+998rv98t1XfX29urM
+      mTNauXKlwuGwTpw4oZGREbW0tGhwcFANDQ1atGiRDh8+rPPnz2v58uUKBoO5F8H7+vrU19en
+      FStWqKqqapb/dWZLJBI6fPiwli9frrGxMY2MjGhqakpjY2M6evSoqqurtXTpUmWzWTmOo3Q6
+      rQMHDigajer666+XZVmz/U+Y82zb1u7du/XAAw/o3Llzcl1XQ0ND6u7u1uLFi7VgwQKdOnVK
+      Y2NjsixLnZ2duetlYmJCa9euVXNzszZu3KiOjg61tbXJsqzLztPf36++vj61tLSopaVFAwMD
+      udtsNBpVXV2dzp07p3nz5ikcDs/mJvlEPAMogUwmo97eXvX29mpiYkL79+9Xe3u7tm/frng8
+      rr1792rJkiXaunWr2tra9M9//lOO4ygSiaitrU2vvfZabq3z589r7969am9v1xtvvDFnH4mU
+      C5/Pp1gspqmpKR08eFCdnZ2SpGQyqeuuu049PT0aHBzM/fyuXbvU0NCg4eFhnTp1arbGNso1
+      11yjmpoa9fX1SZoJwo4dO7Rs2TK98847mp6e1ptvvqna2lqdPn1aExMTufO6rqu3335bL7zw
+      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
+    </thumbnail>
+    <thumbnail height='384' name='Sheet 5' width='384'>
+      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
+      oUzmQQD7teXnd/+o581KH9+V/FtbafUe2gJYu3at5w4VY2RkxNcAyOVyCv/K2h31irO4Buzn
+      l1LyL+D97h/1/LFSx3cl/9ZWWr2y7wLy4tatWxodHZUkbdu2TWvWrHnse/1aeyi1nuu6CgQC
+      nuo5jlN0u37O75P6XU7d3d1KpVKSHhwvCoUe/XX0u3/PWm9xI/lx0xVTz3Vdua5b1Lgt9/z6
+      ZbnGd7l+u4FAoKh5We5l1ZJpfeyH70ZGRnTgwAEdOHDgiQt/qbi1h66uLkkPBnzxv73Uu3jx
+      ohYWFtTT06Px8XHP9U6fPq1f2SPnqV5vb68+++wzXb169Yn7uYPB4FO/RK7r6he/+EVR9YqR
+      TCblOE5hfB+3cCi2f47jqLu7W5J0+/ZtTU9Pe6rnuq7Onj0rx3H0+eefK59//HGHYvt35syZ
+      J77nWftX7HistvH147c7NTWlq1evKp1O6xe/+IXnesPDwxoaGnrq+4qtl0qldObMGV26dEk9
+      PT1lq2d9+OGHHz516jJIJBJP3YS8fv26xsfHdefOHcViMVVWVpbcXl9fn7q6ujQ/P6/h4WFt
+      3rxZsVis5HqS1NLSouPHj2v9+vVat26dp1qSNDExoUuXLmlmZkaVlZWe5leSbt68qVgspkgk
+      IsuyPNVLJBLK5XIKhUJPrZfNPjhw+6R9xOFwWF988YVmZ2d1584dtba2elqTuXDhgq5du6b5
+      +XlNTU1py5YtnuoFAgGtWbNG//3f/6233nrL81gEAgFdvnxZ9+/f19jYmFpaWjz171nGw+96
+      yz2+kvdd1ZWVlcrlcvrss8/07rvvel4rDwaD+uyzzzQ/P6/p6WnPt77p7u7Wnj17dP/+faVS
+      Ka1fv74s9R46CPy8jIyMPHUQz507pwMHDvjW5szMjOrq6jzXSaVSunLliqQHF7lVVFRo69at
+      T91KeRrbtjU8PKzm5mZFo1HP+0SvX7+u/v5+1dXV6c033/S0qe26rr766iuNj48/td7i2Q5P
+      CvhkMqmhoSHt3Lmz5D79av/m5uZUW1vrudbY2Jhu3bol6Zfj+/rrrz9xLbYYCwsLmp6eVnV1
+      tef9588yHn7Xe9HHt6+vr7CFmE6nVV9fr127dnmuOz09Ldd1FQ6HPY9vJpPR+fPnNTMzo02b
+      Nnnu3+PqrehjAKlUSufOnZP09GMATzM0NKSFhQVdu3ZNkrR9+/aS68ViMe3fv1+jo6MaGBiQ
+      4zi+fDG/+OIL2bat1tZW9fb2eh70pqYmTU5OauPGjZ73swYCAdXV1RUONtm27WmBGIvFNDAw
+      oGQyKenJ+4ifZmZmRo7j6MaNG4W/7d27t+R6LS0tamlp0fXr15XP5xWPxz0v/DOZjL788ktF
+      o1FVV1dr8+bNni6ODAQCampqUi6XM258Y7GYdu/eXXLftm3bVgi8UCik+vr6kmstunXrlhKJ
+      hLL/d1rxvn37PNWLRCKqqalRMBjUpk2bPPfPsizV1NSoqqpqyQHjFR0Ahw798hx/L7trMplM
+      YfN2caHvx60pBgYG9NZbb2lhYUGXLl3Snj17PNesrq7W5OSkL2dEdHd369ChQzp37pwaGxsf
+      e01GMZLJpObm5gqh5LV/gUBAv/7rv66FhQVf6k1MTCwJdK8LxGQyqVQqpTfffFNXr17V5OSk
+      GhoaSq7nuq6i0agqKio0MzPjuX8LCwsaGxvTm2++adz4+nH6aXd3t3bs2KGamhqdOXPG8y6W
+      XC6n2tpaTUxM+HK+f29vr9ra2tTQ0KAzZ87o4MGDnup1d3ero6NDlZWVS757K21XGikAAAeM
+      SURBVPog8JkzZ3TmzBn19PTo7t27JdexLEuNjY26d+9e4YcyPDzsuX+O42hoaEg9PT1qbGz0
+      XG/v3r1yHEepVEovv/xyyXWy2az6+/uVTCbV39+vdDr9xIOYxYjFYhodHdXt27d1+/Ztz3d3
+      tW1bp06dKoyxl/5VVFSopqZGExMTamxs1NTUVOFc9VJFo1FNTEzo9u3bGhkZ8Xwrk8XdhJlM
+      Rlu2bPG0QjM7O6vh4WFNT08bOb63b9/21DfpwdZxb2+vbt686fmzk6StW7cqn88rl8tp//79
+      nmqNjo5qZmZGt2/f1uDgoC/9a21tVXd3t27fvq179+4V/r6itwAqKytVU1Ojzs5OXb58WZs3
+      by6pzuKafyAQUDweVyaT8fyhTk1N6e2339a9e/e0Y8cOX86J7u3t1b59++S6ri5cuFDyFkUw
+      GFR9fX3h+El9fb3nA96S9MYbbxT+2+sarG3bam5uLuw+m5mZUVNTU0m1Kioq1NzcrN7eXtXV
+      1SkQCHga31QqpWAwqMOHD2t0dFTvvPOO5y1Gx3E0PDysAwcOaHBwUFNTUyXvgoxGo2poaChs
+      kZg0vrW1tYWD0KWamppSW1ubampqNDMzo0OHDnmqJz043rZu3Tq1t7frq6++0t69e0uuFY/H
+      9dJLLxVe+7Fy2djYWPgOf3NrbEUHwPbt21VRUaELFy7o1Vdf9VzvW9/6lrq6uhSPxz0fnOrr
+      69OBAwd8u3Cur69PfX19yuVychxHnZ2dJdcKhUJqaGhQT0+PEomEJiYm9N3vftfzmQ5XrlxR
+      OBxWJpPxvEkaDofV3t6ubDarO3fuqKOjw1O9YDCoPXv26KuvvtKGDRtUU1NTcq2JiQmFQiGt
+      XbtWGzZs8NSvRRcvXlRfX58ymYwcxyl5ZUZ6sECMRqOF42Mmje+FCxc8719f/O3G43FfblK5
+      sLCg3t5ejY6OKhqNeq5ZXV2t2dlZXb16VdKDFZJvf/vbnmqm02l1dXUpEokoGo0WAmpFB8DF
+      ixd16NAhz2cCpVIpdXV1Fc4Cunfvnurq6tTa2lpyzcHBwSWbydu3b/e0j3jbtm2qqKjQhg0b
+      5LruE89jL9ZiiAwMDGhubs7TQfREIqGGhgbt3LlTg4ODun//vqfPz3EcXb58WQcPHix5zXDR
+      6Oiobt68WRjf7u5uNTc3ezqIefny5cKZQJK0b98+T/Vef/11NTc3a8OGDZqbm5Nt255PU11c
+      YzdtfC9fvqx33nmn5Hq5XE5nz54tvI7FYp5WMCsrK/Xmm2+qrq5O0WhUk5OTJddaVFtbWxjf
+      8+fPe653/fp1vfXWW4pEIkvmfUUHQHV1tT7++GM1NjZ6OgsoFovpjTfe0Pnz57Vv3z45jqOv
+      v/7a0xd8586dvpw6tiiRSGhgYECVlZVKp9MPHdQsRW9vrxKJhBYWFjyvyVZXVyuZTOqLL76Q
+      9GBryotgMKjZ2VmdPn1a0WjU01kira2tqqur040bN7R792719/drdna25EAOh8Pau3ev5wXX
+      N01NTWlwcFCVlZXq7+/Xyy+/7OnMMdd19eWXX0qSceO7ON+lqq2t9fW3a9u2bt26pUwmo1gs
+      pq6uLs9r7LOzs4UzFv04U3/Xrl06e/aswuHwkq3jFX0dQDqdLqxlh8Nhz/fPuHLlihKJhDKZ
+      jDo7Oz3/wLu7u/XKK6/ozp07ikajngJldHRUvb292rhxo8LhsOdT+wYHBz1vdi/KZrMaGxtb
+      8rd169Y9dg22mPPEXdctnCEiyZfrHj7//HNZlqVkMqlDhw55WmN3XVfd3d3avXu3Ll68qM7O
+      Tk/HAQYHB3Xz5k1t3LhRNTU1am5uLrnW4lliflzTIr144+u6rueAmpqa0vz8vNatW6eLFy96
+      2mefzWb15Zdfqr6+XtFoVM3NzZ52Qfr525UejNfMzEzhdTgcLiyrVvSVwKdOnVImk9GVK1d0
+      //59LSwseDogUldXVzjDpqqqyvMXsq6uTp9++qlisZja29s91ZqZmVE0GtXc3JxSqZTnK5/P
+      nDmjYDCoqakpTU1Nqa6uruRdDrZtK5VKKRAIFK5Wfumllx77+RVzpWg+n9enn34q27Z1/vx5
+      jY+Pq76+3tOpjIvz2NHR4fmgaCAQUDAY1MmTJ7Vjxw5Pa+uJREIVFRVKJpNKp9OanZ1Vc3Nz
+      yeMxMTFRuK7FtPGtqqpSa2urpzrSg902Y2NjOnfunN544w1PKwv37t3Txo0bNTY2pnQ6rVQq
+      5SngF29RsTi2yWTS0/cvm80qk8koEAhoYGBAIyMj2rJli6QVvguooqJCu3btUnV1taLRqOdb
+      VZ87d65wqXtvb2/J+/2+eSVwMBgs3H7Ayy6blpYWtbW1FV57PaAXi8WWrCF62ZqIRCKqra3V
+      5cuX1djYqN/5nd/x5cKjhoYG7d69W4lEQq+88oru379f8hd98SBXRUWF0um0QqGQqqqqSqr1
+      zSuBI5GIbt++rcbGxpIXEoth9NprrxU+N6/jW11dbeT4xuNx5fN5TweCv3klcCQSUV9fn6dd
+      Qi0tLQqFQvq1X/u1kmt80+JFeYu8XoRYXV2tubk5DQ4OaseOHUuWM/8/A11pJMC8KKYAAAAA
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
