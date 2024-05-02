@@ -1,2 +1,1 @@
-InfoVis Final Project Deliverables
-Kathryn Cornette, Margaret Pierce
+InfoVis Final Project Deliverables by Kathryn Cornette and Margaret Pierce
